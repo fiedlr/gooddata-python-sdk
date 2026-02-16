@@ -68,7 +68,7 @@ interactions:
         X-Content-Type-Options:
           - nosniff
         X-Gdc-Cancel-Token:
-          - f3a9372f-5cec-4283-9833-5dbf94b97e2c
+          - 277cb011-9bd7-49a3-98cb-908f89694d77
         X-GDC-TRACE-ID: *id001
         X-Xss-Protection:
           - '0'
@@ -100,10 +100,10 @@ interactions:
                         name: Order Amount
                 localIdentifier: dim_1
             links:
-              executionResult: cbfc932b8fbc510f554773a08fd4b03645f0c65d:70a92778b5667d893f4eec8b790f4811e6d46583b512b06e74941695625deac9
+              executionResult: 6d459df0f17cd53c6f88ea2f4afebfb8e5758485:a3b86125916c4575d2ac5fd761cc51d147b8e164b9f8b0b92c7e547eff7a31fc
   - request:
       method: GET
-      uri: http://localhost:3000/api/v1/actions/workspaces/demo/execution/afm/execute/result/cbfc932b8fbc510f554773a08fd4b03645f0c65d%3A70a92778b5667d893f4eec8b790f4811e6d46583b512b06e74941695625deac9?offset=0%2C0&limit=512%2C256
+      uri: http://localhost:3000/api/v1/actions/workspaces/demo/execution/afm/execute/result/6d459df0f17cd53c6f88ea2f4afebfb8e5758485%3Aa3b86125916c4575d2ac5fd761cc51d147b8e164b9f8b0b92c7e547eff7a31fc?offset=0%2C0&limit=512%2C256
       body: null
       headers:
         Accept:

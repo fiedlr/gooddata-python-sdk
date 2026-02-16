@@ -166,5 +166,5 @@ interactions:
         string:
           queryDurationMillis:
             createCacheTable: 0
-            simpleSelect: 2
+            simpleSelect: 3
           successful: true

@@ -94,7 +94,7 @@ interactions:
             to access it.
           status: 404
           title: Not Found
-          traceId: 30a8c2619d0cd69b8f639919aac90598
+          traceId: 53422d1d8e2b26f1ee46fa2b1a963fee
   - request:
       method: POST
       uri: http://localhost:3000/api/v1/entities/workspaces/demo/userDataFilters
@@ -241,7 +241,7 @@ interactions:
                 self: http://localhost:3000/api/v1/entities/workspaces/demo/labels/order_status
               type: label
             - attributes:
-                authenticationId: CiRmMWY0ZWM0YS0zOThjLTRmMDctYTBiZC0wYzgzMTAyYTUxZDkSBWxvY2Fs
+                authenticationId: CiRhMzA2MDVjOC1jYjY4LTQxMmYtOGIzNi00ZDAzNTI1ZTA3YmUSBWxvY2Fs
                 firstname: Demo
                 lastname: User
                 email: demo@example.com
@@ -316,7 +316,7 @@ interactions:
             type: userDataFilter
           included:
             - attributes:
-                authenticationId: CiRmMWY0ZWM0YS0zOThjLTRmMDctYTBiZC0wYzgzMTAyYTUxZDkSBWxvY2Fs
+                authenticationId: CiRhMzA2MDVjOC1jYjY4LTQxMmYtOGIzNi00ZDAzNTI1ZTA3YmUSBWxvY2Fs
                 firstname: Demo
                 lastname: User
                 email: demo@example.com
@@ -1971,10 +1971,6 @@ interactions:
                             title: Location
                             description: Location
                             sourceColumnDataType: STRING
-                            locale: en-US
-                            translations:
-                              - locale: cs-CZ
-                                sourceColumn: geo__state__location_cz
                             tags:
                               - Customers
                             valueType: GEO

@@ -113,7 +113,7 @@ interactions:
         string:
           queryDurationMillis:
             createCacheTable: 0
-            simpleSelect: 26
+            simpleSelect: 17
           successful: true
   - request:
       method: PUT

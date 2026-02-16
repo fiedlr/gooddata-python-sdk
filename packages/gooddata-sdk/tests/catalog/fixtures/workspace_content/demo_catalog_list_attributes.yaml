@@ -22,7 +22,7 @@ interactions:
         Cache-Control:
           - no-cache, no-store, max-age=0, must-revalidate
         Content-Length:
-          - '15271'
+          - '15177'
         Content-Type:
           - application/json
         DATE: &id001
@@ -436,9 +436,9 @@ interactions:
               relationships:
                 labels:
                   data:
-                    - id: state
-                      type: label
                     - id: geo__state__location
+                      type: label
+                    - id: state
                       type: label
               type: attribute
             - attributes:
@@ -522,10 +522,6 @@ interactions:
                 sourceColumn: geo__state__location
                 sourceColumnDataType: STRING
                 valueType: GEO
-                locale: en-US
-                translations:
-                  - sourceColumn: geo__state__location_cz
-                    locale: cs-CZ
               id: geo__state__location
               links:
                 self: http://localhost:3000/api/v1/entities/workspaces/demo/labels/geo__state__location
